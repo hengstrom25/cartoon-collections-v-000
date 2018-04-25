@@ -12,7 +12,7 @@ end
 
 def long_planeteer_calls(words)
   if words.any? |words|
-    words > 4
+    words.length > 4
 end
 
 def find_the_cheese# code an argument here
